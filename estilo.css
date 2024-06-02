@@ -15,9 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    border: 3px solid rgb(255, 0, 0);
-    font-weight: 400;
-    
+    font-weight: 700;
     font-size: 28px;
 }
 #menu{
@@ -106,8 +104,8 @@ figure{
 }
 figure img{
     box-shadow: 10px 10px 5px  #F2B705;
-    width: 300px;
-    margin: 10px;
+    width: 280px;
+    margin: 8px;
    
 }
 figcaption{
@@ -120,7 +118,11 @@ figcaption{
 }
 #youtube, #vimeo, #mivideo{
     text-align: center;
+  flex-wrap: wrap;
 }
+
+
+
 #logo{
     float: left;
     padding: 10px;
@@ -131,5 +133,3 @@ article{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
- 
